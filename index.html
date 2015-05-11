@@ -19,6 +19,23 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/vendor/wow.min.js"></script>
+        <script>
+          wow = new WOW(
+            {
+              boxClass:     'wow',      // default
+              animateClass: 'animated', // default
+              offset:       30,         
+              mobile:       true,       // default
+              live:         true        // default
+            }
+          );
+          wow.init();
+        </script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -51,7 +68,7 @@
           <div class="col-md-12 text-center text-on-dark">
             <h1 class="title fadeIn wow">Helló! Mesi vagyok.</h1>
             <h2 class="desc fadeIn wow">Új állást keresek.</h2>
-            <div class="col-xs-6 col-xs-offset-3 social-media">
+            <div class="col-sm-6 col-sm-offset-3 col-xs-12 social-media">
               <a href="https://www.facebook.com/mesi.varga" class="col-xs-3 text-center fadeInUp wow"><i class="fa fa-facebook fa-3x"></i></a>
               <a href="https://instagram.com/selymes/" class="col-xs-3 text-center fadeInUp wow"><i class="fa fa-instagram fa-3x"></i></a>
               <a href="https://twitter.com/selyemesi" class="col-xs-3 text-center fadeInUp wow"><i class="fa fa-twitter fa-3x"></i></a>
@@ -230,23 +247,6 @@
       </div>
     </footer>
 
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/vendor/wow.min.js"></script>
-    <script>
-      wow = new WOW(
-        {
-          boxClass:     'wow',      // default
-          animateClass: 'animated', // default
-          offset:       60,         
-          mobile:       true,       // default
-          live:         true        // default
-        }
-      );
-      wow.init();
-    </script>
+   
   </body>
 </html>
